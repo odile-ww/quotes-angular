@@ -1,0 +1,15 @@
+.featured-quotes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  ;
+}
+
+.featured-quote-item {
+  border: 10px solid #bada55;
+  padding: 0.5rem;
+}
+
+h3 {
+  text-align: right;
+}

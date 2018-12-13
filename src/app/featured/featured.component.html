@@ -1,0 +1,9 @@
+<h2>Featured</h2>
+<section class="featured-quotes">
+  <ng-container *ngFor="let quote of featuredQuotes">
+    <div class="featured-quote-item" *ngIf="quote.isFeatured">
+      <p>{{quote.content}}</p>
+      <h3> &#45; {{quote.author}}, <cite>{{quote.title}}</cite></h3>
+    </div>
+  </ng-container>
+</section>
